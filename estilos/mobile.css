@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mobile {
+    display: block;
+    max-width: 342px;
+    border-radius: 10px 10px 0px 0px;
+}
+#desktop {display: none;}
+
+.container-two {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.texto {
+    max-width: 50px;
+    margin: 15px;
+}
+
+.texto-one {
+    width: 300px;
+}
+
+.valor {
+    display: flex;
+}
+
+h1, h5, p {
+    padding-top: 10px;
+}
+
+button {
+    background-color: #365945;
+    margin-top: 16px;
+    width: 290px;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+:hover > button {
+    background-color: #3b715c;
+    transition: .3s;
+}
