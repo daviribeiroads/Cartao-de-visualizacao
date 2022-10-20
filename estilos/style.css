@@ -9,3 +9,8 @@
 body {
     background-color: #f3eae3;
 }
+
+#carinho {
+    padding-right: 8px;
+    max-width: 12px;
+}
